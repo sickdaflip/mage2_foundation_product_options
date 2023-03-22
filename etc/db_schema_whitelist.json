@@ -1,0 +1,19 @@
+{
+    "catalog_product_option_type_value": {
+        "column": {
+            "option_type_id": true,
+            "option_id": true,
+            "sku": true,
+            "sort_order": true,
+            "description": true,
+            "image": true
+        },
+        "index": {
+            "CATALOG_PRODUCT_OPTION_TYPE_VALUE_OPTION_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "CAT_PRD_OPT_TYPE_VAL_OPT_ID_CAT_PRD_OPT_OPT_ID": true
+        }
+    }
+}
